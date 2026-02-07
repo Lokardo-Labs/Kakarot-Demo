@@ -1,0 +1,14 @@
+{
+  "name": "jest-sanity",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.0",
+    "@types/jest": "^29.5.0",
+    "typescript": "^5.5.0",
+    "@kakarot-ci/core": "latest"
+  }
+}
