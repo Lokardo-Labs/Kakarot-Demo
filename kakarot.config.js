@@ -4,11 +4,11 @@ const config = {
   framework: 'jest',
   provider: 'anthropic',
   model: 'claude-opus-4-6',
-  maxTokens: 16000,
   testLocation: 'separate',
   testDirectory: '__tests__',
   testFilePattern: '*.test.ts',
-  includePatterns: ['src/**/*.ts'],
+  includePatterns: ['src/**/*.ts', 'src/**/*.tsx'],
+  maxTokens: 16000,
   enableCoverage: true,
 };
 
