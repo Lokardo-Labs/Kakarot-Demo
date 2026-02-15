@@ -5,7 +5,7 @@
     "test": "jest --coverage"
   },
   "devDependencies": {
-    "@kakarot-ci/core": "file:../kakarot-ci",
+    "@kakarot-ci/core": "0.15.0",
     "@stryker-mutator/core": "^9.5.1",
     "@stryker-mutator/jest-runner": "^9.5.1",
     "@stryker-mutator/typescript-checker": "^9.5.1",
